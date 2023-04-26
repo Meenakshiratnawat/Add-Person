@@ -1,0 +1,60 @@
+/* PersonTable.css */
+
+/* Form container */
+.form-container {
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Search input */
+.search-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Table */
+.person-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table head */
+.person-table thead th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Table rows */
+.person-table tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Delete button */
+.person-table tbody td button {
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+/* No results message */
+.no-results {
+  margin-top: 10px;
+  color: red;
+}
+
+/* Additional styles for first name row */
+.person-table tbody .first-name-row {
+  font-weight: bold;
+}

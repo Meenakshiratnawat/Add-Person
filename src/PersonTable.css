@@ -1,0 +1,66 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .form-container {
+    margin-bottom: 20px;
+  }
+  
+  label,
+  input,
+  button {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 5px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-input {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .person-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .person-table th,
+  .person-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .person-table th {
+    font-weight: bold;
+  }
+  
+  .first-name-row {
+    font-weight: bold;
+  }
+  
+  .person-table button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
